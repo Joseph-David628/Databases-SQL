@@ -1,7 +1,1 @@
-Place your project milestones here, in pdf format:
-
-    project1.pdf   -- project proposal
-    project2.pdf   -- project milestone
-    project4.pdf   -- (poster is optional)
-    project5.pdf   -- final report
-
+#This repo contains Joseph David's assignments and final project for Winter 2021 CSE544 (Database Management Systems) at the University of Washington.
