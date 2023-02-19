@@ -1,0 +1,10 @@
+//hw4-q1.txt
+with temp as(
+        select b.p1 as p1, c.p1 as p2, count(*) as count
+        from person_living a, parent_child b, parent_child.c
+        where a.x = b.p1 and b.p2 = c.p1
+        group by 1,2
+)
+select p1, max(count)
+from temp
+group by 1;

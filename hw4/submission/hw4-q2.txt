@@ -1,0 +1,7 @@
+//hw4-q2.txt
+T1(x1,x2,x3) = parent_child(x1,x2) Join [x1 = x3] female(x3)
+T2(x4,x5) = person_living(x4) Join [x4 = x5] male(x5)
+T3(x4) = Project[x4] T2(x4,x5)
+T4(x1,x2,x3,x4) = T1(x1,x2,x3) Join [x2 = x4] T3(x4)
+T5(x4) = Project[x4] T4(x1,x2,x3,x4)
+T6(x4) = T3(x4) SetMinus T5(x4)
