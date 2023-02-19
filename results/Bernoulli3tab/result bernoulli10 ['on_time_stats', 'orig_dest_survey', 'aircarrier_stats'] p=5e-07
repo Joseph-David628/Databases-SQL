@@ -1,0 +1,18 @@
+{
+    "method": "bernoulli",
+    "table_names": "['on_time_stats', 'orig_dest_survey', 'aircarrier_stats']",
+    "attributes": "['ORIGIN_AIRPORT_ID', 'ORIGIN_AIRPORT_ID', 'ORIGIN_AIRPORT_ID']",
+    "sampling_probabilities": [
+        0.01,
+        0.001,
+        0.05
+    ],
+    "number_of_samples": "10",
+    "estimates": "[135322512000000, 153773728000000, 133842362000000, 133775616000000, 127695556000000, 130638716000000, 127462192000000, 128889412000000, 131836734000000, 131504578000000]",
+    "hh_contrib": 0,
+    "average": "133474140600000.0",
+    "variance": 5.208714120141843e+25,
+    "error": 721.7142176888192,
+    "plan_rows": 10000000000,
+    "actual_rows": 10000000000
+}

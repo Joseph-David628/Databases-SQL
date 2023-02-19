@@ -1,0 +1,16 @@
+{
+    "method": "correlated",
+    "table_names": "['on_time_stats', 'aircarrier_stats']",
+    "attributes": "['ORIGIN_AIRPORT_ID', 'ORIGIN_AIRPORT_ID']",
+    "sampling_probabilities": [
+        0.01,
+        0.05
+    ],
+    "number_of_samples": "5",
+    "estimates": "[1948004900, 1150753200, 275000, 5922439400, 476989600]",
+    "average": "1899692420.0",
+    "variance": 4.4755214331024983e+18,
+    "error": 1.7629523519397987,
+    "plan_rows": 0,
+    "actual_rows": 1200000000
+}
